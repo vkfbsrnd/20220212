@@ -1,0 +1,19 @@
+*{background-color: black;}
+.circle{position: absolute;
+    top: 0; left:0; 
+    width:150px; height:150px;
+    border-radius: 50%; 
+    border: 1px solid white; transform: translate(-50%,-50%);}
+
+.horizontal_line{position: absolute;
+    top: 0; left:0;
+     height: 1px; width: 100%; background-color: white;}
+
+.vertical_line {position: absolute;
+    top: 0; left:0;
+     width:1px; height: 100%; background-color: white;}
+
+
+#result{ position: absolute; top: 0; left: 0;
+    margin: 10px; color: white;
+    background-color: rgba(0, 0, 0, 0);} 
